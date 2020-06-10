@@ -357,7 +357,12 @@ width: 200px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; f
 .img-back1 {
     background: #808080 url("../img/2013-12-9-charity-bg.jpg") no-repeat fixed center center / 100% auto;
 }
-
+.img-back2 {
+    background: #808080 url("../img/sl-beach.jpg") no-repeat fixed center center / 100% auto;
+}
+.img-back3 {
+    background: #808080 url("../img/irl_city.jpg") no-repeat fixed center center / 100% auto;
+}
 .abut{text-align: left;}
 .abut p {text-align: justify; text-indent: 30px;}
 .team p{font-size: 13px; text-indent: 20px; text-align: justify;}

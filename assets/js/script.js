@@ -44,7 +44,7 @@ thankam.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvi
        $stateProvider
         .state('news',{
             url:'/news',
-            templateUrl: 'template/news.html'
+            templateUrl: 'template/events.html'
 
         })
        $stateProvider
