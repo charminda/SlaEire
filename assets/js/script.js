@@ -1,7 +1,7 @@
 
-var thankam = angular.module('thankam',['ui.router']);
+var slaeire = angular.module('slaeire',['ui.router']);
 var url = 'http://localhost/learning/le-admin/';
-thankam.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider){
+slaeire.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider){
     $urlRouterProvider.otherwise('/');
 
     $stateProvider
@@ -57,7 +57,7 @@ thankam.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvi
 
 
 
-thankam.controller('homeCtrl', function($scope, $http){
+slaeire.controller('homeCtrl', function($scope, $http){
 	
 })
 
